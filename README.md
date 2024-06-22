@@ -37,7 +37,7 @@ run the app.py file
 
 - On the sidebar, you can input URLs directly.
 
-- Initiate the data loading and processing by clicking "Process URLs."
+- Initiate the data loading and processing by clicking "Ask"
 
 - Observe the system as it performs text splitting, generates embedding vectors, and efficiently indexes them using FAISS.
 
@@ -46,9 +46,9 @@ run the app.py file
 - The FAISS index will be saved in a local file path in pickle format for future use.
 - One can now ask a question and get the answer based on those news articles
 - we used following news articles
-  - https://www.moneycontrol.com/news/business/tata-motors-mahindra-gain-certificates-for-production-linked-payouts-11281691.html
-  - https://www.moneycontrol.com/news/business/tata-motors-launches-punch-icng-price-starts-at-rs-7-1-lakh-11098751.html
-  - https://www.moneycontrol.com/news/business/stocks/buy-tata-motors-target-of-rs-743-kr-choksey-11080811.html
+  - https://www.business-standard.com/markets/news/stock-market-live-updates-today-june-21-sensex-nifty-ipo-block-deal-it-stocks-aster-dm-bajaj-cons-124062100089_1.html
+  - https://www.livemint.com/market/stock-market-news/stock-market-today-trade-setup-for-nifty-50-five-stocks-to-buy-or-sell-on-friday-june-21-11718903578804.html
+  - https://m.economictimes.com/markets/stocks/live-blog/bse-sensex-today-live-nifty-stock-market-updates-21-june-2024/liveblog/111153359.cms
 
 ## Project Structure
 
