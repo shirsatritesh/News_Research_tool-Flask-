@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Research Tool 📈</title>
+</head>
+<body>
+    <h1>News Research Tool 📈</h1>
+    <form method="POST" action="/process_urls">
+        <label for="url1">URL 1:</label>
+        <input type="text" id="url1" name="url1"><br><br>
+        <label for="url2">URL 2:</label>
+        <input type="text" id="url2" name="url2"><br><br>
+        <label for="url3">URL 3:</label>
+        <input type="text" id="url3" name="url3"><br><br>
+    </form>
+    <br>
+    <form method="POST" action="/query">
+        <label for="question">Question:</label>
+        <input type="text" id="question" name="question">
+        <button type="submit">Ask</button>
+    </form>
+    {% if answer %}
+    <h2>Answer</h2>
+    <p>{{ answer }}</p>
+    {% endif %}
+    {% if sources %}
+    <h2>Sources</h2>
+    <ul>
+        {% for source in sources %}
+        <li>{{ source }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
+
