@@ -35,11 +35,11 @@ python app.py
 
 2.The web app will open in your browser.
 
-- On the sidebar, you can input URLs directly.
+- On screen, you can input URLs directly.
 
 - Initiate the data loading and processing by clicking "Ask"
 
-- Observe the system as it performs text splitting, generates embedding vectors, and efficiently indexes them using FAISS.
+- The system performs text splitting, generates embedding vectors, and efficiently indexes them using FAISS.
 
 - The embeddings will be stored and indexed using FAISS, enhancing retrieval speed.
 
