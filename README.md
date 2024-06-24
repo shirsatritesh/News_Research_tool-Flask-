@@ -29,7 +29,7 @@ Created a user-friendly news research tool designed for effortless information r
 
 1. Run the flask app by executing:
 ```bash
-run the app.py file
+python app.py 
 
 ```
 
